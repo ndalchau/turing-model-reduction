@@ -2,13 +2,13 @@
 
 This repository contains the Matlab scripts for recreating the figures of the JR Soc Interface article *Model reduction enables Turing instability analysis of large reaction-diffusion models*. 
 
-Each figure has its own script.
-- Figure1_BrusselatorExample
-- Figure2_BrusselatorDispersion
-- Figure3_TuringExample
-- Figure4_TuringDispersion
-- Figure5_BorekExample
-- Figure6_BorekDispersion
+To reproduce each figure, you should run the relevant script in Matlab:
+- Figure1_BrusselatorExample.m
+- Figure2_BrusselatorDispersion.m
+- Figure3_TuringExample.m
+- Figure4_TuringDispersion.m
+- Figure5_BorekExample.m
+- Figure6_BorekDispersion.m
 
 ## Dependencies
 - All Matlab code was tested in release 2016a. 
