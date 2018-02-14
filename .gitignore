@@ -3,4 +3,6 @@
 ############
 
 *.mat
-Figures/*
+Figures/*.eps
+Figures/*.png
+Figures/*.pdf
