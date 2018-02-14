@@ -3,7 +3,7 @@
 % Licensed under the MIT License.
 
 plotting = 1;   % Plot PDE simulation progress
-compute = 0;    % Recompute everything or load from file
+compute = 1;    % Recompute everything or load from file
 
 %% Run Bifurcation calculations
 npoints = 200;
