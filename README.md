@@ -16,5 +16,5 @@ To reproduce each figure, you should run the relevant script in Matlab:
 - Mathematica is used to evaluate equilibria of the Borek model, which are stored in CSV files.
 
 ## Contributors
-- Neil Dalchau, Microsoft Research (repository owner)
+- [Neil Dalchau](https://github.com/ndalchau), Microsoft Research (repository owner)
 - Stephen Smith, University of Edinburgh
