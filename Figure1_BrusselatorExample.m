@@ -30,6 +30,7 @@ if compute || ~exist(fnameBif,'file')
   class = reshape(class_raw,[npoints,npoints]);
   toc
   
+  mkdir Matfiles
   save(fnameBif,'qspace','bimol','class','bspace','Dyspace')
 else
   load(fnameBif,'qspace','bimol','class','bspace','Dyspace')

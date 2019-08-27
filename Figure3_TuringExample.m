@@ -27,6 +27,7 @@ if compute || ~exist(fnameBif,'file')
   raw2 = arrayfun(@(k6,Dy)Bifurcation_Turing2(k1,k2,k3,k4,k5,k6,k7,nc,Dx,Dy,qspace),U,V);
   Bif2 = reshape(raw2,npoints,npoints);
   
+  mkdir Matfiles
   save(fnameBif,'qspace','k6space','Dyspace','Bif*')
 else
   load(fnameBif)
@@ -39,6 +40,7 @@ if compute || ~exist(fnamePDE,'file')
   [x,pde4] = TuringPDE(T,4,plotting);
   [~,pde3] = TuringPDE(T,3,plotting);
   [~,pde2] = TuringPDE(T,2,plotting);
+  mkdir Matfiles
   save(fnamePDE,'pde*','x')
 else
   load(fnamePDE)

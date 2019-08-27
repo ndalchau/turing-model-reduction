@@ -17,6 +17,7 @@ if (compute || ~exist(fname,'file'))
   [borekF,eqF] = BorekBifurcations('Full',kdimspace,DiffH2O2space,qspace,1);
   [borek4,eq4] = BorekBifurcations('Four',kdimspace,DiffH2O2space,qspace);
   [borek2,eq2] = BorekBifurcations('Two',kdimspace,DiffH2O2space,qspace,1);
+  mkdir Matfiles
   save(fname,'borek*','*space','eq*')
 else
   load(fname)
@@ -30,6 +31,7 @@ if compute || ~exist(fnamePDE,'file')
   [~,pde4] = Borek4PDE(T,plotting);
   [~,pde2] = Borek2PDE(T,plotting);
   
+  mkdir Matfiles
   save(fnamePDE,'pde*','x')
 else
   load(fnamePDE)
